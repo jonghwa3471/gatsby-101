@@ -6,8 +6,8 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function IndexPage({ data }: PageProps<Queries.StickersQuery>) {
   return (
-    <div className="grid">
-      <Layout title="Welcome to DevStickers 👋">
+    <Layout title="Welcome to DevStickers 👋">
+      <div className="grid">
         {data.allContentfulStickerPack.nodes.map((sticker, index) => (
           <article key={index}>
             <GatsbyImage
@@ -20,8 +20,8 @@ export default function IndexPage({ data }: PageProps<Queries.StickersQuery>) {
             </Link>
           </article>
         ))}
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 }
 export const query = graphql`
