@@ -24,7 +24,6 @@ export default function BlogPost({ data, children }: IBlogPostProps) {
 export const query = graphql`
   query PostDetail($frontmatter__slug: String) {
     mdx(frontmatter: { slug: { eq: $frontmatter__slug } }) {
-      body
       frontmatter {
         author
         category
