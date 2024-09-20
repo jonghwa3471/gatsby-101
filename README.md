@@ -5,7 +5,7 @@ Online Shop Clone Built with Gatsby
 https://jongstickers.netlify.app/
 
 ## 🖥 Preview
-<img src="preview-crypto-tracker.png"/>
+<img src="preview-devstickers.png"/>
 
 ## 🔥 Stack
 
