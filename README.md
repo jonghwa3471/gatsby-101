@@ -20,6 +20,7 @@ https://jongstickers.netlify.app/
 
 ## ✅ Packages
 
+- [x] React
 - [x] Gatsby
 
 ## 📖 Theory
